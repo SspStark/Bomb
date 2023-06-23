@@ -15,7 +15,7 @@ defuser.addEventListener('keydown', function(event) {
     let defuseKey = defuser.value;
     console.log(defuseKey);
     if (event.key === 'Enter' && defuseKey === 'defuse' && time !== 0) {
-        timer.textContent = 'OH GOD, You saved us';
+        timer.textContent = 'OH GOD!, You saved us';
         clearInterval(intervalId);
     }
 })
